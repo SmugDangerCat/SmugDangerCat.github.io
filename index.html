@@ -2864,14 +2864,14 @@ The barkeep brings over a tray of [[every kind of liquor.]]</tw-passagedata><tw-
 (set: $newSMUGconvo to 1)(set: $newMeekaconvo to 1)&lt;span id=&quot;dialogue&quot;&gt;You&#39;ve completed a quest: WORLDLY TEMPTATIONS
 You earned 5 gold.&lt;/span&gt;(set: $gold to $gold + 5)(set: $monkquest to 2)
 
-[[Step away from the monk.-&gt;The Gangrenous Stump]]</tw-passagedata><tw-passagedata pid="266" name="GoodSideOfTown" tags="" position="2900,7675" size="100,100">(if: $Cramlittoquest is 2)[No sooner have you stepped onto the cobblestones of Marasika Plaza than Cramlitto emerges from the shadows behind the Red Roof Inn. He steps into your path and points a crooked boney finger with a long yellowed nail at you.
+[[Step away from the monk.-&gt;The Gangrenous Stump]]</tw-passagedata><tw-passagedata pid="266" name="GoodSideOfTown" tags="" position="2900,7675" size="100,100">(if: $Cramlittoquest is 2)[No sooner have you stepped onto the cobblestones of HawkTuah Plaza than Cramlitto emerges from the shadows behind the Red Roof Inn. He steps into your path and points a crooked boney finger with a long yellowed nail at you.
 (set: $Cramlittoquest to 3)
 &lt;span id=&quot;Cramlitto&quot;&gt;&lt;u&gt;Cramlitto&lt;/u&gt;
 &quot;You. You wretched meddler. No one steals Cramlitto&#39;s acolytes.&quot;&lt;/span&gt;
 
 [[Pretend to put a curse on him.]]
 [[Slice off his hand with your sword.]]
-[[Stare him in the eyes with real pity.]]](else:)[&lt;span id=&quot;titles&quot;&gt;MARASIKA PLAZA&lt;/span&gt;
+[[Stare him in the eyes with real pity.]]](else:)[&lt;span id=&quot;titles&quot;&gt;HawkTuah PLAZA&lt;/span&gt;
 
 A narrow cobblestone street winds through an upscale neighbourhood lined with shops. At the end of the street is the [[Red Roof Inn]], a cozy lodge with a thatched red roof. Here, weary travellers can find rest or drink.
 
@@ -2910,7 +2910,7 @@ Meeka (either: &quot;watches the show on stage with fascination.&quot;, &quot;bl
 
 [[Read the plaque.]]](else:)[&lt;span id=&quot;titles&quot;&gt;HIDIYA SQUARE&lt;/span&gt;
 
-[[Marasika Plaza-&gt;GoodSideOfTown]] lies to the west, with its quaint shops and perfect cobblestone streets.
+[[HawkTuah Plaza-&gt;GoodSideOfTown]] lies to the west, with its quaint shops and perfect cobblestone streets.
 
 In the middle of the square is [[the roost-&gt;colossal statue]] where the moss dragon perches during the festival. Flags and banners hang from the roost and streamers run from it down to carved wooden totems all over the square.
 
@@ -4625,7 +4625,7 @@ You (link-reveal:&quot;lean in...&quot;)[ and Barnes says to you:
 
 You cry out:
 
-[[&quot;The Moonshot Saloon!&quot;-&gt;MoonshotRealization]]]]]]</tw-passagedata><tw-passagedata pid="518" name="MoonshotRealization" tags="" position="3606,8705" size="100,100">You&#39;re jarred from your memory and suddenly you&#39;re back (if: $location is 1)[on the street in Marasika Plaza.](else-if: $location is 2)[in Hidaya Square](else-if: $location is 3)[on Kukula Row, outside the Gangrenous Stump.]
+[[&quot;The Moonshot Saloon!&quot;-&gt;MoonshotRealization]]]]]]</tw-passagedata><tw-passagedata pid="518" name="MoonshotRealization" tags="" position="3606,8705" size="100,100">You&#39;re jarred from your memory and suddenly you&#39;re back (if: $location is 1)[on the street in HawkTuah Plaza.](else-if: $location is 2)[in Hidaya Square](else-if: $location is 3)[on Kukula Row, outside the Gangrenous Stump.]
 
 &lt;span id=&quot;Meeka&quot;&gt;&lt;u&gt;Meeka&lt;/u&gt;
 &quot;Moonshot, you said? Moonshot! That&#39;s it!&quot;&lt;/span&gt;
@@ -5757,14 +5757,14 @@ You soften your gaze and look at Cramlitto as just what he is: a scared child pr
 &lt;span id=&quot;Cramlitto&quot;&gt;&lt;u&gt;Cramlitto&lt;/u&gt;
 &quot;Would you stop *looking* at me like that? Gods...&quot;&lt;/span&gt;
 
-Cramlitto flees into the shadows, leaving you free to explore [[Marasika Plaza.-&gt;GoodSideOfTown]]</tw-passagedata><tw-passagedata pid="655" name="Slice off his hand with your sword." tags="" position="3063,7748" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;+ 1 TANK&lt;/span&gt;(set: $tank to $tank + 1)
+Cramlitto flees into the shadows, leaving you free to explore [[HawkTuah Plaza.-&gt;GoodSideOfTown]]</tw-passagedata><tw-passagedata pid="655" name="Slice off his hand with your sword." tags="" position="3063,7748" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;+ 1 TANK&lt;/span&gt;(set: $tank to $tank + 1)
 
 So fast is your sword that he has no time, even, to say goodbye to his hand. There is just the flash of the moon&#39;s light glancing off of steel, then the wet smack of his severed hand hitting the cobblestones.
 
 &lt;span id=&quot;Cramlitto&quot;&gt;&lt;u&gt;Cramlitto&lt;/u&gt;
 &quot;You... you *wretch*.&quot;&lt;/span&gt;
 
-He grabs up his hand and flees into the shadows, leaving you free to explore [[Marasika Plaza.-&gt;GoodSideOfTown]]</tw-passagedata><tw-passagedata pid="656" name="Pretend to put a curse on him." tags="" position="3050,7625" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;+ 1 ROGUE&lt;/span&gt;(set: $rogue to $rogue + 1)
+He grabs up his hand and flees into the shadows, leaving you free to explore [[HawkTuah Plaza.-&gt;GoodSideOfTown]]</tw-passagedata><tw-passagedata pid="656" name="Pretend to put a curse on him." tags="" position="3050,7625" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;+ 1 ROGUE&lt;/span&gt;(set: $rogue to $rogue + 1)
 
 You glare at him and mutter some gibberish under your breath.
 
@@ -5776,7 +5776,7 @@ You keep muttering gibberish as you stare at him, wide-eyed, and march towards h
 &lt;span id=&quot;Cramlitto&quot;&gt;&lt;u&gt;Cramlitto&lt;/u&gt;
 &quot;Stop that! Stop!&quot;&lt;/span&gt;
 
-Cramlitto flees into the shadows, leaving you free to explore [[Marasika Plaza.-&gt;GoodSideOfTown]]</tw-passagedata><tw-passagedata pid="657" name="Grab a shot." tags="" position="885,206" size="100,100">You knock it back and slam the glass down on the table.
+Cramlitto flees into the shadows, leaving you free to explore [[HawkTuah Plaza.-&gt;GoodSideOfTown]]</tw-passagedata><tw-passagedata pid="657" name="Grab a shot." tags="" position="885,206" size="100,100">You knock it back and slam the glass down on the table.
 
 &lt;span id=&quot;SMUG&quot;&gt;&lt;u&gt;SMUG&lt;/u&gt;
 *(grinning)*
