@@ -789,8 +789,8 @@ SMUG pinches the bill of his nose and shakes his head as you approach.
 
 [[Step away.-&gt;Enter the dark wizard&#39;s Citadel.]] ](else:)[Meeka just keeps staring at the dark wizard. She seems to have no idea you&#39;re even there.
 
-[[&quot;Are you... alright?&quot;-&gt;Meekadark wizardTalk]]
-[[&quot;Helloooo. Earth to Meeka.&quot;-&gt;Meekadark wizardTalk]]
+[[&quot;Are you... alright?&quot;-&gt;MeekadarkwizardTalk]]
+[[&quot;Helloooo. Earth to Meeka.&quot;-&gt;MeekadarkwizardTalk]]
 [[Wave your hand in front of her face.]]]</tw-passagedata><tw-passagedata pid="15" name="slumbering dark wizard" tags="" position="92,1453" size="100,100">You stand at the edge of the balcony. The ground beneath your feet is shale that threatens to give way under your weight.
 
 You hold up your torch. The dark wizard&#39;s cloak shimmers in its light. Old scars criss-cross his face -- marks of hundreds of past adventurers who have tried and failed to slay the wizard.
@@ -823,7 +823,7 @@ You play SMUGGLER&#39;S PASS by *reading* and *clicking links*. Some links take 
 [[Return to the start menu.-&gt;SMUGGLER&#39;S PASS]]</tw-passagedata><tw-passagedata pid="18" name="Credits." tags="no-sidebar" position="211,3" size="100,100">Writing and interactivity by Smug
 Made with love for all my Zork loving hommies
 
-[[Back to start page-&gt;SMUGGLER&#39;S PASS]] </tw-passagedata><tw-passagedata pid="19" name="Meekadark wizardTalk" tags="" position="549,1627" size="100,100">(set: $darkwizardready to $darkwizardready + 1)(set: $Meekatalkedto to true)(set: $Meekagoal to 2)&lt;span id=&quot;Meeka&quot;&gt;&lt;u&gt;Meeka&lt;/u&gt;
+[[Back to start page-&gt;SMUGGLER&#39;S PASS]] </tw-passagedata><tw-passagedata pid="19" name="MeekadarkwizardTalk" tags="" position="549,1627" size="100,100">(set: $darkwizardready to $darkwizardready + 1)(set: $Meekatalkedto to true)(set: $Meekagoal to 2)&lt;span id=&quot;Meeka&quot;&gt;&lt;u&gt;Meeka&lt;/u&gt;
 &quot;Oh! Hello! Sorry. I was a little... distracted.&quot;&lt;/span&gt;
 
 She looks at you... but it seems to pain her to tear her eyes away from the dark wizard, and soon she&#39;s resumed staring at him.
@@ -841,7 +841,7 @@ She looks at you... but it seems to pain her to tear her eyes away from the dark
 
 &lt;span id=&quot;dialogue&quot;&gt;Meeka disliked that.&lt;/span&gt;
 
-(display: &quot;SMUG approaches&quot;)</tw-passagedata><tw-passagedata pid="21" name="Wave your hand in front of her face." tags="" position="603,1514" size="100,100">(goto: &quot;Meekadark wizardTalk&quot;)</tw-passagedata><tw-passagedata pid="22" name="Stare at the dark wizard, truly seeing the point of full justice." tags="" position="425,1675" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;+ 1 MAGE&lt;/span&gt;(set: $mage to $mage + 1)(set: $Meekatalkedto to true)(set: $Meeka to $Meeka + 1)
+(display: &quot;SMUG approaches&quot;)</tw-passagedata><tw-passagedata pid="21" name="Wave your hand in front of her face." tags="" position="603,1514" size="100,100">(goto: &quot;MeekadarkwizardTalk&quot;)</tw-passagedata><tw-passagedata pid="22" name="Stare at the dark wizard, truly seeing the point of full justice." tags="" position="425,1675" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;+ 1 MAGE&lt;/span&gt;(set: $mage to $mage + 1)(set: $Meekatalkedto to true)(set: $Meeka to $Meeka + 1)
 
 Even for an adventurer, dark wizards are no common sight, and before this, you&#39;ve only seen sketches in books.
 
@@ -2306,7 +2306,7 @@ You earned 10 pieces of gold.&lt;/span&gt;(set: $nofinishedquests to false)(set:
 
 [[Shove it in your burlap sack.]]</tw-passagedata><tw-passagedata pid="176" name="Again! Harder!" tags="" position="2335,5214" size="100,100">Blood spatters across your breastplate. Meeka retches in the corner.
 
-[[One final swing.]]</tw-passagedata><tw-passagedata pid="177" name="Meekadark WizardHeadRemovalCont" tags="" position="2440,4373" size="100,100">&lt;span id=&quot;Meeka&quot;&gt;&lt;u&gt;Meeka&lt;/u&gt;
+[[One final swing.]]</tw-passagedata><tw-passagedata pid="177" name="MeekadarkWizardHeadRemovalCont" tags="" position="2440,4373" size="100,100">&lt;span id=&quot;Meeka&quot;&gt;&lt;u&gt;Meeka&lt;/u&gt;
 &quot;Hacking away at the dark wizard&#39;s neck isn&#39;t going to get us anywhere. The skin is too old and  too hard.&quot;&lt;/span&gt;
 
 She feels gently along its neck until she finds a seam where the scars come together.
@@ -2333,11 +2333,11 @@ You earned 10 pieces of gold.&lt;/span&gt;(set: $nofinishedquests to false)(set:
 
 Meeka rolls her eyes at you.
 
-(display: &quot;Meekadark WizardHeadRemovalCont&quot;)</tw-passagedata><tw-passagedata pid="181" name="&quot;I&#39;ve always loved how much care you take with things.&quot;" tags="" position="2373,4253" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;Meeka liked that.&lt;/span&gt;(set: $Meeka to $Meeka + 1)
+(display: &quot;MeekadarkWizardHeadRemovalCont&quot;)</tw-passagedata><tw-passagedata pid="181" name="&quot;I&#39;ve always loved how much care you take with things.&quot;" tags="" position="2373,4253" size="100,100">&lt;span id=&quot;dialogue&quot;&gt;Meeka liked that.&lt;/span&gt;(set: $Meeka to $Meeka + 1)
 
 Meeka smiles, shrugging.
 
-(display: &quot;Meekadark WIZARDHEADRemovalCont&quot;)</tw-passagedata><tw-passagedata pid="182" name="Hand her the burlap sack." tags="" position="2475,4875" size="100,100">Meeka carefully places the dark wizard&#39;s head in the bag. She hands it to you and you heave it onto your back. It&#39;s heavy. Blood pools at the bottom of the bag, dripping on the Citadel floor.
+(display: &quot;MeekadarkWIZARDHEADRemovalCont&quot;)</tw-passagedata><tw-passagedata pid="182" name="Hand her the burlap sack." tags="" position="2475,4875" size="100,100">Meeka carefully places the dark wizard&#39;s head in the bag. She hands it to you and you heave it onto your back. It&#39;s heavy. Blood pools at the bottom of the bag, dripping on the Citadel floor.
 
 (set: $darkWizardHead to 1)&lt;span id=&quot;dialogue&quot;&gt;You&#39;ve received a new item: A DARK WIZARD&#39;S HEAD.&lt;/span&gt;
 
